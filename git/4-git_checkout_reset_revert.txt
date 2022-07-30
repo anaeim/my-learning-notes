@@ -1,0 +1,6 @@
+ref: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting#:~:text=The%20git%20checkout%20command%20can,which%20inverses%20the%20specified%20commit.
+in the ref you can see the deference between git checkout/reset/revert with examples
+
+A file level checkout will change the file's contents to those of the specific commit.
+git checkout at file-level Discard changes in the working directory and returns the file back to a specified commit
+

@@ -1,0 +1,6 @@
+git commit --amend: This option adds another level of functionality to the commit command. 
+Passing this option will modify the last commit. Instead of creating a new commit, staged changes will be added to the previous commit. 
+This command will open up the system's configured text editor and prompt to change the previously specified commit message.
+
+ye chizi ro taghir dadim, badesh migim ey kash in ro ham ba version e  ghabli commit karde budim. khob hala chi kar konim?
+mitunim ba git commit --amend mitunim in taghirat ro be akharin commit ezafe konim

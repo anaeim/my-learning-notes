@@ -1,0 +1,12 @@
+method 1: git checkout <commit id>
+
+1- git checkout <commit id>
+2- git checkout -b <new branch name>: 
+    it create a new branch, checkhout to it, write the commit history from that <commit id> on
+    it is like undoing the commit
+
+
+method 2: git revert <commit id>
+authomatically creates a new commit in commit history and revent the changes in <commit id>
+yani barayand e in commit and commit e <commit id> sefr khahad budan
+ 

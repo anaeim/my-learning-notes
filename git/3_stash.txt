@@ -1,0 +1,47 @@
+refeence: http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning
+
+why we need stash?
+Now you want to switch branches, but you don’t want to commit what you’ve been working on yet, so you’ll stash the changes. 
+with stash you can save the changes somewhere else, checkout the branch with commiting half-cooked codes and then return to it whenever you want
+
+what stash does?
+make your working directory clean, barmiagardune nesbat be akharin state e repository, akharin commit
+
+how to save changes?
+method 1
+git add -A 
+git stash push
+-- now you have saved the changes somewehere else and your directory is clean 
+taghirat ro dge lazem nost commit koni: taghirat ro  az working directory haz mikone va dar jaye dge i zakhire mikone va working directory ro be akharin commit barmigardune
+
+method 2
+git stash
+faghat tracked file ha ro stash mikone, va untracked file ha ro stash nemikone
+solution to stash untracked files with git stash?
+git stash -u
+
+git stash -a: stash all the files inclusing tracked, untracked and ignored
+
+
+how to return the changes?
+method 1:
+git stash list: See what you got
+git stash apply stash@{0} (be halat e ghabl az git add -A barmigardune)
+# stash@{0}: shows the last stached thing  
+git stash apply, taghirat ro barmigardune vali stash ro tuye stash list negah midare
+
+method 2:
+git stash pop
+akharin stash ro birun mindaze va un stash ro az list e stash ha ahzf mikone
+
+how to add a message to your stash?
+git stash save "write your message"
+
+how to clear your stash from stash list?
+$ git stash drop stash@{0}: it clears one stash by id
+$ git stash pop
+$ git stash clear: it clears all the stash list
+
+how to View stash diffs? che juri taghirat e tuye har stash ro bebinim?
+git stash show stash@{0}
+git stash show stash@{0} -p : -p means with more details

@@ -1,0 +1,7 @@
+reference: https://www.roboleary.net/vscode/2020/09/15/vscode-git.html
+
+you can use vscode instead of nano edior to diff bwteen objects.
+you need to edit the config and then use difftool instead of diff.
+
+now if you use git diff: it shows the diff results in the terminal
+if you use git difftool: it shows the diff results in a vscode

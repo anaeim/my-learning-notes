@@ -1,0 +1,19 @@
+how to compare changes between different stages/commits/branchs/files?
+with git diff
+
+git diff a1.txt
+git diff: compare repository and working directory
+
+git diff --staged a1.txt
+git diff --staged: compare repository and staged are 
+
+tuye 2 taye bala ba akharin commit haye repository dare moghayese mikone
+yani vaghti commit id ya yek reference mesl e head tuye diff nazarim, khodesh by default ba akharin commit e repo moghayese mikone
+git diff db8a8f6 a1.txt
+mituni az commit id estefade koni: yani be jaye akharin commit  e repository ba commit haye dge repository moghayese koni 
+
+git diff 98a653e 0d0fa42
+moghayese 2 ta commit ro ba ham dge ba estefade az commit id hashun
+
+git diff ali ali2
+moghaye 2 ta branch ba ham dge

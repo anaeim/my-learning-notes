@@ -1,0 +1,3 @@
+baraye rename kardan e ye file ham mishe ba mv va ham mishe ba git mv estefade kard
+
+git mv be git mifahmune ke in rename hast va ba del+create file eshtebah nemigire

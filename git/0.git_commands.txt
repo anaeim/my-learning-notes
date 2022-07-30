@@ -1,0 +1,6 @@
+-- git reset: ye file ro az stageing area be working directory barmigardune
+-- git remote -v: shows the connection between the local repo and remote repo
+age faghat git init ro bezani va hanuz local ro be remote repo connect nakarde bashi, chizi nabayad neshun bede
+yani baraye push va pull kardan be che url i estefade mikone
+-- git pull/push origin master; origin: the remore repo, master: the branch on the remote repo
+-- git

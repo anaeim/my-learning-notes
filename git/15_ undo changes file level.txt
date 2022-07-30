@@ -1,0 +1,23 @@
+git reset	Commit-level	
+git reset
+Discard commits in a private branch or throw away uncommited changes
+yani hame ye file haiy ke be git add staged kardi ro untage mikone
+
+git reset	File-level	
+git reset a1.txt
+Unstage a file
+faghat ye file e khas ro unstage mikone va na hame ye file ha ro
+
+git checkout    Commit-level	
+git checkout <commit id>
+Switch between branches or inspect old snapshots
+
+
+git checkout	File-level	
+Discard changes in the working directory and return it back to the last commit
+git checkout a1.txt
+
+
+git revert	Commit-level	
+git revert <commit id>
+Undo commits in a public branch

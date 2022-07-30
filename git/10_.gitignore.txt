@@ -1,0 +1,39 @@
+how to add directories to .gitignore?: akharesh / bezar mesl e .vscode/
+
+how to check if a file is included in .gitignore?
+git check-ignore
+vaghti be visual access nadari va mikhai bebini aya in file dakhel e .gitignore hast ya na?
+git check-ignore .vscode
+
+-v: verbose: explain more
+git check-ignore -v .vscode: it ckecks if the ,vscoe is included in .gitignore and tell you how?
+
+different types of .gitignore?
+shared
+personal
+global
+
+shared .gitignore?
+it is like a normal .gitignore, you add a rule to a .gitignore in a directory
+it pushed to the remote repo
+
+personal .gitignore?
+you want a personal .gitignore
+it doesn't push to the remote repo
+by adding them to .git/info/exclude
+
+global .gitignore?
+you define a gitignore for all directories in the system for one user
+put the file in a safe place (like home directory) bcs git reads it every time
+$ touch ~/.gitignore
+$ git config --global core.excludesFile ~/.gitignore
+
+
+how to ignore a Previously Committed File?
+file i ke ghablan commit shode va history dare ro nemishe hamin juri be .gitignore ezafe kard
+age ham hamin juri ezafe konim mibinim ke git un file to track mikone va ignore nemikone
+dar in surat ignore nemishe  va bazam track mishe
+chi kar bayad kard?
+bayad aval az kol e hostory e git pakesh konim va bad be .gitignore ezafash konim
+$ git rm --cached debug.log: 
+Using the --cached option with git rm means that the file will be deleted from your repository, but will remain in your working directory as an ignored file.

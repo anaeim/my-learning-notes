@@ -1,0 +1,8 @@
+popular linters:
+flake8
+pylint
+
+how to apply linter to a .py file:
+ctrl+shift+P : to open command  
+select inter
+flake 8

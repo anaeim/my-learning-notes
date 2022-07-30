@@ -1,0 +1,7 @@
+version control system: git as a version control system (VCS) controls different versions of your projects = it saves different versions and let you revert to any of them
+
+what is git init?
+it considers the directory as a project, creates a local repo which is .git file.
+.git file saves snapshots/versions of your project.
+
+you later can connect this local repo to a remote repo

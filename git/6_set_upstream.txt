@@ -1,0 +1,5 @@
+git push --set-upstream origin main or git push -u origin main
+in yani az in be bad namiekhad bezani git push origin main, faghat kafie bezani bezani git push, un by defaul khodesh be origin main push mikone
+
+rah e dge in hast ke baraye ye branch e khas ye branch e remote (mesl e origin/main) ro set-upstream koni
+git branch --set-upstream-to=origin/main

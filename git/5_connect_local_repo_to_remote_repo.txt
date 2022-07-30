@@ -1,0 +1,6 @@
+1- cd to the directory
+2- git init: to create a local repo using: git git init
+3- git remote -v: to see the connections between local and remote repo: it should return nothing
+4- go to your remote repo using chrome
+5- cp the ssh url of remote repo
+6- git remote add <name of the remote repo, it is usually origin> <the ssh url of the remote repo>

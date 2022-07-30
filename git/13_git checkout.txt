@@ -1,0 +1,11 @@
+git checkout <commit id>
+it is git checkout in commit level
+it is explore level, and it will effect your commit history even if you commit the changes that you make
+yani badesh age masalan bezani git checkout main, hame ye taghitayt az beyn miran va engar ke na engar ke ghablan budan
+
+how to keep the changes?
+commit changes and create a new branch. the changes will be written in that branch 
+
+1- git add -A 
+2- git commit -m "your message"
+3- git branch <your new branch name>

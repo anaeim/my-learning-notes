@@ -1,0 +1,10 @@
+L- Local: /.git/config – Repository-specific settings.
+
+Global: /.gitconfig – User-specific settings. This is where options set with the --global flag are stored.
+User-specific means for that user in all the repositories, this config applies
+
+System: $(prefix)/etc/gitconfig – System-wide settings.
+System-wide means, this config applies for all the users and all repos.
+
+tartib e ahamiat
+git aval be config e local, bad be config e global va bad dar akhar be config e system deghat mikone
