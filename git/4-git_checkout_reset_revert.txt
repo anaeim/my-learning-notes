@@ -1,6 +1,30 @@
-ref: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting#:~:text=The%20git%20checkout%20command%20can,which%20inverses%20the%20specified%20commit.
+ref:
+https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+
 in the ref you can see the deference between git checkout/reset/revert with examples
 
 A file level checkout will change the file's contents to those of the specific commit.
 git checkout at file-level Discard changes in the working directory and returns the file back to a specified commit
+
+we have 3 commands to go back to previous commits: 
+- checkout
+- reset
+- revert
+
+-- checkout <command ID>
+mituni ba checkout beyn e commit ha yeki yeki negah koni va bebini
+har dafe bayad : 
+	bargardi be last commit: git switch -
+	ye branch e dge dorost koni va az unja edame bedi va taghirati ke mikhai bedi: git switch <new-branch-name>
+	age hamin juri bedun e dorost kardan e ye branch jdd, shoru koni edame dadan ye detached HEAD dorost mishe va badan nemituni commit ya pushesh koni
+	
+	
+-- git reset <commit ID> (i.e., commit level)
+be un commit barmigarde va tamam e commit haye jelo taresh ro bi khial mishe va az log ham pak mikone baraye hamin riski hast va dobare nemishe be in commit haye hazf shode bargasht -> NOT RECOMMENDED
+
+-- git revert
+mesl e git reset hast ba in tafavot ke log ro taghir nemide va commit haye jelo tar az un commit ID ham baghi mimunan.
+
+revert yani bargard be commit e ghabl e un = go back to the commit before this commit ID
+banabarin bayad bayad hamishe baraye revert, ye commit ID balatar entekhab koni
 

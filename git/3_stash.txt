@@ -2,7 +2,7 @@ refeence: http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning
 
 why we need stash?
 Now you want to switch branches, but you don’t want to commit what you’ve been working on yet, so you’ll stash the changes. 
-with stash you can save the changes somewhere else, checkout the branch with commiting half-cooked codes and then return to it whenever you want
+with stash you can save the changes somewhere else, checkout the branch without commiting half-cooked codes and then return to it whenever you want
 
 what stash does?
 make your working directory clean, barmiagardune nesbat be akharin state e repository, akharin commit
@@ -10,13 +10,18 @@ make your working directory clean, barmiagardune nesbat be akharin state e repos
 how to save changes?
 method 1
 git add -A 
-git stash push
+git stash push/ git stash
+
+difference between git stash or git stash push?
+git stash save accepts a single non-option argument — the stash message. git stash push accepts the message with option -m and accepts a list of files to stash as arguments.
+
 -- now you have saved the changes somewehere else and your directory is clean 
-taghirat ro dge lazem nost commit koni: taghirat ro  az working directory haz mikone va dar jaye dge i zakhire mikone va working directory ro be akharin commit barmigardune
+taghirat ro dge lazem nist commit koni: taghirat ro  az working directory hazf mikone va dar jaye dge i zakhire mikone va working directory ro be akharin commit barmigardune
 
 method 2
 git stash
 faghat tracked file ha ro stash mikone, va untracked file ha ro stash nemikone
+
 solution to stash untracked files with git stash?
 git stash -u
 
@@ -32,7 +37,7 @@ git stash apply, taghirat ro barmigardune vali stash ro tuye stash list negah mi
 
 method 2:
 git stash pop
-akharin stash ro birun mindaze va un stash ro az list e stash ha ahzf mikone
+akharin stash ro birun mindaze va un stash ro az list e stash ha hazf mikone
 
 how to add a message to your stash?
 git stash save "write your message"

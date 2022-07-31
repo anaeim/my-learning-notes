@@ -1,0 +1,3 @@
+git checkout HEAD~2
+
+it moves the HEAD reference to the specified commit. For example, the following command will check out the grandparent of the current commit

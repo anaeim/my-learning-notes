@@ -1,4 +1,5 @@
-reference: https://www.roboleary.net/vscode/2020/09/15/vscode-git.html
+reference: 
+https://www.roboleary.net/vscode/2020/09/15/vscode-git.html
 
 you can use vscode instead of nano edior to diff bwteen objects.
 you need to edit the config and then use difftool instead of diff.
