@@ -1,0 +1,38 @@
+ref:
+https://github.com/pytopia/CS-Tutorial/blob/main/05.%20Git/03.%20Saving%20Changes/03.%20gitignore.md
+
+--> Appending a slash indicates the pattern is a directory. 
+ex: logs/
+
+--> *: wildcard to create patterns
+!: exlude
+
+ex: 
+logs/
+!logs/important.log
+
+explanation: Wait a minute! Shouldn't logs/important.log be negated in the example on the left
+Nope! Due to a performance-related quirk in Git, you can not negate a file that is ignored due to a pattern matching a directory
+
+
+--> Personal .gitignore rules
+You can also define personal ignore patterns for a particular repository in a special file at .git/info/exclude. These are not versioned, and not distributed with your repository, so it's an appropriate place to include patterns that will likely only benefit you. For example if you have a custom logging setup, or special development tools that produce files in your repository's working directory, you could consider adding them to .git/info/exclude (you should open it with code) to prevent them from being accidentally committed to your repository.
+- just for one repo
+- just for yourself, you dont commit them and other people don't see it
+
+
+-->Global .gitignore rules
+- for all of your repositories
+- just for yourself, you dont commit them and other people don't see it
+
+first should create it in a safe place like home: $ touch ~/.gitignore
+second add it to you global config file: git config --global core.excludesFile ~/.gitignore
+third, open it with code and add your rules
+
+
+--> Ignoring a Previously Committed File
+if you commit a file and add to your git history you can't add it to .gitignore, age ham ezafe koni un rule apply nemishe va ignore nemishe
+bayad chi kar kard?
+bayad az history e git remove sh kard: 
+git rm --cached debug.log
+hala mituni be .gitignore ezafe koni va commit koni: git commit -m "Start ignoring debug.log"

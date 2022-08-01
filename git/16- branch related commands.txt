@@ -1,0 +1,14 @@
+-- to show only local branches:
+git branch
+
+-- to show all the local and remote branches
+git branch -a
+
+-- to delete a branch from your local repo
+git brnach -d <your-branch-name>
+
+-- to delete a branch from your remote repo:
+git push origin --delete <your-branch-name>
+
+-- to create and checkout to the new branch with one command
+git checkout -b <new-branch-name>
