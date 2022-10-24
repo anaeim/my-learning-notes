@@ -1,0 +1,16 @@
+gradient descent (GD) = to minimize the loss fuctionin in a cost_function vs. w figure, calculate the gradient at each w, move toward descending (downward)
+
+Learning Rate (LR) = step size in GD in each step to get min of cost fost function.
+
+LR can be constant or adaptive
+
+adaptive GD = Adaptive LR
+At the begining (when the slope is high), we take high LRs (to speed up diverging)
+At the end (when slope gets close to zero), we take small LRs (to avoid overshooting)
+
+Adam = An optimized method for GD with adaptive laerning rates
+
+gradient = derivative for high dimension space
+
+cross-entropy loss = loss function for classification task
+it considers predicton of P distribution for all classes in the output layer

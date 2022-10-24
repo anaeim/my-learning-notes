@@ -1,0 +1,7 @@
+what is back propagation (BP)? a method to minimize the cost function
+
+with BP, we go back through the network and adjust weights and biases (w & b) to minimize the error vector on the last layer
+
+"we go back through the network"
+it means to calculate the gradient of cost_function wrt w of each layer of network CUZ we only can change w to minimize the cost function
+it means to back propagate the error
